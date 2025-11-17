@@ -1,0 +1,9 @@
+frontend:
+  image: "my-frontend"
+  replicas: 2
+  port: 3000
+
+backend:
+  image: "my-backend"
+  replicas: 2
+  port: 8080
